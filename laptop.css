@@ -1,0 +1,94 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: blueviolet;
+}
+
+header>.head {
+      flex-basis: 60%;
+      align-items: center;
+
+}
+
+header>.img {
+      flex-basis: 30%;
+
+}
+
+header img {
+      height: 300px;
+      width: 400px;
+      padding: 30px;
+}
+
+.head>h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: aqua;
+      padding: 10px;
+}
+
+.head>p {
+      color: grey;
+}
+
+.head>button {
+      margin-top: 30px;
+      padding: 10px;
+      margin-left: 30px;
+      border: 2px solid blue;
+      border-radius: 20px;
+      cursor: pointer;
+
+}
+
+main {
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 50px;
+
+}
+
+main img {
+      height: 100px;
+
+}
+
+main>div {
+
+      background-color: wheat;
+      height: 200px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      border: 2px solid black;
+      cursor: cell;
+}
+
+.img1 {
+      flex-basis: 30%;
+}
+
+.img2 {
+      flex-basis: 30%;
+}
+
+.img3 {
+      flex-basis: 30%;
+}
+
+main>div:hover {
+      background-color: grey;
+      color: blue;
+
+}

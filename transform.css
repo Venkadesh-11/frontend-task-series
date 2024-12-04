@@ -1,0 +1,69 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.container {
+      background-color: pink;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+}
+
+.container>.ball1 {
+      height: 100px;
+      width: 100px;
+      background-color: navy;
+      border-radius: 50%;
+      transition: all 5s linear;
+}
+
+.container>.ball1:hover {
+      transform: translate(60vw) scale(1.3) rotate(360deg) skew(30deg);
+      border-radius: 100%;
+      background-color: yellow;
+}
+
+.container>.ball2 {
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      border-radius: 50%;
+      transition: all 5s linear;
+}
+
+.container>.ball2:hover {
+      transform: translate(200px, -200px) scale(2) skew(60deg);
+      border-radius: 100%;
+      background-color: yellow;
+}
+
+.container>.ball3 {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      border-radius: 50%;
+      transition: all 5s linear;
+}
+
+.container>.ball3:hover {
+      transform: translatey(200px);
+      border-radius: 100%;
+      background-color: yellow;
+}
+
+.container>.ball4 {
+      height: 100px;
+      width: 100px;
+      background-color: aqua;
+      transition: all 5s linear;
+}
+
+.container>.ball4:hover {
+      transform: translateX(800px) rotate(190deg);
+      transform-origin: top;
+      background-color: yellow;
+}

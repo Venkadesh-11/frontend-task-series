@@ -1,0 +1,78 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+nav {
+
+      display: flex;
+      height: 100px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: antiquewhite;
+}
+
+.list>ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+
+}
+
+li:hover {
+      color: blue;
+
+}
+
+
+
+
+h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+      color: red;
+      font-style: italic;
+}
+
+a {
+      border-radius: 10px;
+      border: 3px solid black;
+      padding: 10px;
+      color: black;
+}
+
+.button :nth-child(1) {
+
+      margin-right: 30px;
+      padding: 15px;
+      background-color: yellow;
+      border-radius: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-decoration: none;
+}
+
+.button :nth-child(2) {
+      padding: 15px;
+      background-color: aqua;
+      margin-right: 30px;
+      border-radius: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.button :nth-child(1):hover {
+      color: red;
+      background-color: yellowgreen;
+
+}
+
+.button :nth-child(2):hover {
+      color: red;
+      background-color: yellowgreen;
+}

@@ -1,0 +1,111 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer {
+      background-color: pink;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+}
+
+.outer>.inner {
+      background-color: white;
+      width: 300px;
+      padding: 30px;
+      box-shadow: 2px 4px 5px black;
+}
+
+.form-group>input {
+      display: block;
+}
+
+.form-group>label {
+      display: block;
+}
+
+header>h1 {
+      font-style: italic;
+      color: blue;
+      margin-bottom: 8px;
+}
+
+header>p {
+      font-size: 12px;
+      font-style: italic;
+      color: gray;
+      font-weight: bold;
+}
+
+main {
+      margin-top: 16px;
+
+}
+
+.form-group {
+      margin-bottom: 10px;
+}
+
+.form-group>label {
+      color: navy;
+}
+
+input {
+      width: 100%;
+      margin-top: 10px;
+      padding: 3px;
+      border-radius: 8px;
+      border: 2px solid pink;
+}
+
+button {
+      width: 100%;
+      padding: 6px;
+      border-radius: 5px;
+      color: white;
+      background-color: blueviolet;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+
+
+}
+
+.form-group>button:hover {
+      color: green;
+      background-color: yellowgreen;
+}
+
+footer>#p1 {
+      display: inline-block;
+      font-size: 15px;
+      color: gray;
+
+}
+
+footer>#p2 {
+      display: inline-block;
+      color: blue;
+      margin-left: 8px;
+      font-size: 17px;
+      font-weight: bold;
+      text-decoration-line: underline;
+
+}
+
+::selection {
+      color: magenta;
+      background-color: beige;
+}
+
+.outer>.inner:hover {
+      box-shadow: -3px -5px 9px black;
+      /*           horizontal vertical border-px color */
+
+}
